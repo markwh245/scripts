@@ -14,6 +14,8 @@ Queries run every 25 seconds to stop Google having a hissy fit about traffic vol
 
 ****************************
 
+Nmapscans.sh
+
 A basic automated Nmap scan script.
 
 Will do the -A, -O, -sV -sS, -sU, "The big scan of TCP:0-65535" and Network File Shares Search.
