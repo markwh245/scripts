@@ -1,6 +1,8 @@
 # scripts
 Various PostEnum and Info Gathering Scripts
 
+****************************
+
 A basic automated Nmap scan script.
 
 Will do the -A, -O, -sV -sS, -sU, "The big scan of TCP:0-65535" and Network File Shares Search.
