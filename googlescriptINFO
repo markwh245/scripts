@@ -1,0 +1,7 @@
+googlescript.sh
+
+A automated script that uses various GooleDork/GoogleHack queries to enumerate a company and email address domain.
+
+usage ./googlescript.sh <www.<domain name>.<com, net etc> @<email domain>
+
+Queries run every 25 seconds to stop Goolge having a hissy fit about traffic volume. But it's still quicker manual enumeration.
