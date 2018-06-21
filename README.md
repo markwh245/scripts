@@ -42,6 +42,8 @@ Enter Target IP address
 
 
 ***************************
+ 
+nmapvulnlinscans.sh
 
 Nmap script that tests for General and Linux based vulnerabilities.
 
