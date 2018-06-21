@@ -1,6 +1,6 @@
 # Scripts
 
-Various PostEnum and Info Gathering Scripts
+Various Post Enum and Info Gathering Scripts
 
 ***************************
 
@@ -34,6 +34,37 @@ Running the following
 smb-os-discovery, smb-security-mode, smb-enum-shares, smb-brute.nse,smb-enum-shares, smb-enum-users, smb-enum-sessions, smb-enum-processes, smb-system-info.
 
 Usage
-./nmapsmbscan.sh 
+./nmapsmbscan.sh
+
 HitEnter
+
 Enter Target IP address
+
+
+***************************
+
+Nmap script that tests for General and Linux based vulnerabilities.
+
+Creates a new directory on the Desktop called VulnScan<Target IP Address> and stores in individual txt files
+
+Checks for
+
+General vulns
+ftp-vuln-cve2010-4221		ProFTPDServer
+http-vuln-cve2010-2861		ColdFusion
+http-vuln-cve2014-8877		Worpress
+http-vuln-cve2012-1823		PHPCodeExec
+
+Specific Linux based vulns
+http-vuln-cve2006-3392		Webmin
+http-vuln-cve2013-7091		RubinaZimbra
+mysql-vuln-cve2012-2122		MariaDB
+samba-vuln-cve-2012-1182	Samba
+smtp-vuln-cve2010-4344		SMTPExim
+smtp-vuln-cve2011-1764		SMTPEximFormat
+
+
+Usage
+./nmapvulnlinscans.sh TargetIPAddress
+
+***************************
