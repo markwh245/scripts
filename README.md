@@ -2,6 +2,16 @@
 
 Various PostEnum and Info Gathering Scripts
 
+***************************
+
+googlescript.sh
+
+A automated script that uses various GooleDork/GoogleHack queries to enumerate a company and email address domain.
+
+usage ./googlescript.sh <www.<domain name>.<com, net etc> @<email domain>
+
+Queries run every 25 seconds to stop Google having a hissy fit about traffic volume. But it's still quicker manual enumeration.
+
 ****************************
 
 A basic automated Nmap scan script.
@@ -15,16 +25,6 @@ Scans run in parallel, there is no throttling, so it's not any good for outside 
 Usage
 ./Nmapscans.sh <target>
   
-***************************
-
-googlescript.sh
-
-A automated script that uses various GooleDork/GoogleHack queries to enumerate a company and email address domain.
-
-usage ./googlescript.sh <www.<domain name>.<com, net etc> @<email domain>
-
-Queries run every 25 seconds to stop Google having a hissy fit about traffic volume. But it's still quicker manual enumeration.
-
 ***************************
 
 nmapsmbscan.sh
