@@ -1,4 +1,5 @@
-# scripts
+# Scripts
+
 Various PostEnum and Info Gathering Scripts
 
 ****************************
@@ -25,3 +26,14 @@ usage ./googlescript.sh <www.<domain name>.<com, net etc> @<email domain>
 Queries run every 25 seconds to stop Google having a hissy fit about traffic volume. But it's still quicker manual enumeration.
 
 ***************************
+
+nmapsmbscan.sh
+
+A script to test and enum for SMB information. Commands run sequentially, targetting TCP 139 and 445. 
+Running the following
+smb-os-discovery, smb-security-mode, smb-enum-shares, smb-brute.nse,smb-enum-shares, smb-enum-users, smb-enum-sessions, smb-enum-processes, smb-system-info.
+
+Usage
+./nmapsmbscan.sh 
+HitEnter
+Enter Target IP address
