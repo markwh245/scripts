@@ -1,0 +1,55 @@
+-rw-r--r-- /etc/group
+drwxr-xr-x /bin
+drwxr-xr-x /etc
+-rw-r--r-- /etc/hosts
+-rw-r--r-- /etc/hosts.allow
+-rw-r--r-- /etc/hosts.deny
+-rw-r--r-- /etc/issue
+-rw-r--r-- /etc/login.defs
+-rw-r--r-- /usr/share/base-files/motd
+-rw-r--r-- /etc/mtab
+-rw-r--r-- /etc/passwd
+-rw-rw-r-- /etc/rc.local
+-rw-r--r-- /etc/securetty
+drwxr-xr-x /etc/security
+-rw-r--r-- /etc/services
+-rw-r----- /etc/shadow
+-rw-r--r-- /etc/ssh/sshd_config
+-rw------- /etc/ssh/ssh_host_dsa_key
+-rw------- /etc/ssh/ssh_host_rsa_key
+drwx------ /root
+drwxr-xr-x /sbin
+drwxrwxrwt /tmp
+drwxr-xr-x /usr/bin
+drwxr-xr-x /usr/sbin
+drwxrwxr-x /var/log
+-rw-r--r-- /var/log/boot*
+drwxr-xr-x /etc/cron.d
+-rw-r--r-- /etc/crontab
+-rw-r----- /var/log/dmesg
+-rw-rw-r-- /var/log/lastlog
+-rw-r----- /var/log/syslog
+-rw-rw-r-- /var/log/wtmp
+lrwxrwxrwx /var/run
+-rw-r--r-- /var/run/*.pid
+drwxr-xr-x /var/spool/cron
+-rwxr-sr-x /usr/bin/crontab
+-rw-r--r-- /etc/crontab
+lrwxrwxrwx /var/spool/mail
+drwxrwxrwt /var/tmp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
