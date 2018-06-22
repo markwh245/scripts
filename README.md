@@ -164,3 +164,15 @@ Usage
 Upload both files to target.
 
 ./ubuntugetfileperms.sh
+
+*********************************
+
+Spanish.apk
+
+A little Android OS app I wrote.
+
+Over 7000 hand made/crafted translations between English & Spanish and visa versa.
+
+Obviously Google Translate is better. 
+
+Has autocomplete, so you just start typing something in either language and suggestions will be presented.
