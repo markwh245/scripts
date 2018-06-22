@@ -72,3 +72,39 @@ Usage
 ./nmapvulnlinscans.sh TargetIPAddress
 
 ***************************
+
+Nmap script that tests for General and Windows based vulnerabilities.
+
+Creates a new directory on the desktop call VulnScan-Target IP Address and stores the infomation in individual txt files.
+
+Warning some tests could result in Blue Screen on the target.
+
+Checks for
+
+General vulns 
+
+ftp-vuln-cve2010-4221 	ProFTPDServer 
+http-vuln-cve2010-2861 	ColdFusion 
+http-vuln-cve2014-8877 	Worpress 
+http-vuln-cve2012-1823 	PHPCodeExec
+
+Windows specific checks
+
+http-iis-webdav-vuln	IISWebdav
+http-vuln-cve2015-1635	MS15-034
+rdp-vuln-ms12-020.nse	MS12-020
+smb-vuln-ms06-025.nse	MS06-025p137and139
+smb-vuln-ms06-025.nse	ms06-025p445
+smb-vuln-ms07-029	ms07-029
+smb-vuln-ms10-061	ms10-061
+smb-vuln-conficker	cornficker
+smb-vuln-ms08-067	ms08-067
+smb-vuln-ms10-054	ms10-054
+smb-vuln-regsvc-dos.nse	Win2000Regsvc
+
+
+Usage ./nmapvulnwinscans.sh TargetIPAddress
+
+*********************************
+
+
