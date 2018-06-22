@@ -83,26 +83,26 @@ Warning some tests could result in Blue Screen on the target.
 
 Checks for
 
-General vulns 
+General vulns </br>
 
-ftp-vuln-cve2010-4221 	ProFTPDServer 
-http-vuln-cve2010-2861 	ColdFusion 
-http-vuln-cve2014-8877 	Worpress 
-http-vuln-cve2012-1823 	PHPCodeExec
+ftp-vuln-cve2010-4221 	ProFTPDServer</br> 
+http-vuln-cve2010-2861 	ColdFusion </br>
+http-vuln-cve2014-8877 	Worpress </br>
+http-vuln-cve2012-1823 	PHPCodeExec</br>
 
-Windows specific checks
+Windows specific checks</br>
 
-http-iis-webdav-vuln	IISWebdav
-http-vuln-cve2015-1635	MS15-034
-rdp-vuln-ms12-020.nse	MS12-020
-smb-vuln-ms06-025.nse	MS06-025p137and139
-smb-vuln-ms06-025.nse	ms06-025p445
-smb-vuln-ms07-029	ms07-029
-smb-vuln-ms10-061	ms10-061
-smb-vuln-conficker	cornficker
-smb-vuln-ms08-067	ms08-067
-smb-vuln-ms10-054	ms10-054
-smb-vuln-regsvc-dos.nse	Win2000Regsvc
+http-iis-webdav-vuln	IISWebdav</br>
+http-vuln-cve2015-1635	MS15-034</br>
+rdp-vuln-ms12-020.nse	MS12-020</br>
+smb-vuln-ms06-025.nse	MS06-025p137and139</br>
+smb-vuln-ms06-025.nse	ms06-025p445</br>
+smb-vuln-ms07-029	ms07-029</br>
+smb-vuln-ms10-061	ms10-061</br>
+smb-vuln-conficker	cornficker</br>
+smb-vuln-ms08-067	ms08-067</br>
+smb-vuln-ms10-054	ms10-054</br>
+smb-vuln-regsvc-dos.nse	Win2000Regsvc</br>
 
 
 Usage ./nmapvulnwinscans.sh TargetIPAddress
