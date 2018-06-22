@@ -151,3 +151,16 @@ Usage
 Upload both files to target.
 
 ./getfileperms.sh
+
+**************************
+
+ubuntugetfileperms.sh & ubuntufileperms.txt
+
+A script that checks for differences in file/folder permissions that are different from permissions assigned by default post install on an Ubuntu OS.
+
+It will report differences.
+
+Usage
+Upload both files to target.
+
+./ubuntugetfileperms.sh
