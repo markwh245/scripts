@@ -1,4 +1,4 @@
-# Scripts
+# Scripts mainly
 
 Various Post Enum and Info Gathering Scripts
 
