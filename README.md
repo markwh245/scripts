@@ -138,3 +138,16 @@ upload to target
 
 from cmd prompt 
 sysinfo.cmd
+
+**************************
+
+getfileperms.sh & fileperms.txt
+
+A script that checks for differences in file/folder permissions that are different from permissions assigned by default post install.
+
+It will report differences.
+
+Usage
+Upload both files to target.
+
+./getfileperms.sh
