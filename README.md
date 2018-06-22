@@ -107,4 +107,17 @@ Usage ./nmapvulnwinscans.sh TargetIPAddress
 
 *********************************
 
+A Powershell V2 Post Enum script looking for Swag. It's Powershell 2 in order to be backwards compatible.
+
+It creates a Results.txt file in the same dir.
+
+Enumerates the host looking for data, registry, file contents, access privs, etc. Many boxes have been priv esc'd because of the findings in this script.
+
+Usage
+upload to target
+
+from cmd prompt
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File postenum.ps1
+
+*********************************
 
