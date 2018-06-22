@@ -73,6 +73,8 @@ Usage
 
 ***************************
 
+nmapvulnwinscans.sh
+
 Nmap script that tests for General and Windows based vulnerabilities.
 
 Creates a new directory on the desktop call VulnScan-Target IP Address and stores the infomation in individual txt files.
@@ -106,6 +108,8 @@ smb-vuln-regsvc-dos.nse	Win2000Regsvc
 Usage ./nmapvulnwinscans.sh TargetIPAddress
 
 *********************************
+
+postenum.ps1
 
 A Powershell V2 Post Enum script looking for Swag. It's Powershell 2 in order to be backwards compatible.
 
