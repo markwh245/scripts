@@ -53,19 +53,19 @@ Creates a new directory on the Desktop called VulnScan<Target IP Address> and st
 
 Checks for
 
-General vulns
-ftp-vuln-cve2010-4221		ProFTPDServer
-http-vuln-cve2010-2861		ColdFusion
-http-vuln-cve2014-8877		Worpress
-http-vuln-cve2012-1823		PHPCodeExec
+General vulns</br>
+ftp-vuln-cve2010-4221		ProFTPDServer</br>
+http-vuln-cve2010-2861		ColdFusion</br>
+http-vuln-cve2014-8877		Worpress</br>
+http-vuln-cve2012-1823		PHPCodeExec</br>
 
-Specific Linux based vulns
-http-vuln-cve2006-3392		Webmin
-http-vuln-cve2013-7091		RubinaZimbra
-mysql-vuln-cve2012-2122		MariaDB
-samba-vuln-cve-2012-1182	Samba
-smtp-vuln-cve2010-4344		SMTPExim
-smtp-vuln-cve2011-1764		SMTPEximFormat
+Specific Linux based vulns</br>
+http-vuln-cve2006-3392		Webmin</br>
+http-vuln-cve2013-7091		RubinaZimbra</br>
+mysql-vuln-cve2012-2122		MariaDB</br>
+samba-vuln-cve-2012-1182	Samba</br>
+smtp-vuln-cve2010-4344		SMTPExim</br>
+smtp-vuln-cve2011-1764		SMTPEximFormat</br>
 
 
 Usage
