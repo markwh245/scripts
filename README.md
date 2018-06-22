@@ -125,3 +125,16 @@ powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File 
 
 *********************************
 
+sysinfo.cmd
+
+A older cmd prompt based Post Enum script. Use if Powershell is not installed. Postenum.ps1 is better.
+
+It creates a results.txt file in the same dir
+
+Enumerates the host looking for data.
+
+Usage
+upload to target
+
+from cmd prompt 
+sysinfo.cmd
